@@ -28,7 +28,7 @@ html{
     color: white;
 }
 
-.container{
+.container-all{
 	position: absolute;
 	left: 0;
 	top: 10%;
@@ -51,6 +51,11 @@ html{
 	margin-bottom: 0;
 	padding-bottom: 0;
 	color: blue;
+	color: blue;
+}
+
+.book-title span{
+	cursor: pointer;
 }
 
 .book-subtitle{
@@ -78,6 +83,80 @@ html{
 	margin-bottom: 20px;
 	border-bottom: 1px solid silver;
 	padding-bottom: 10px;
+}
+
+.container-single{
+	position: absolute;
+	width: 96%;
+	margin: auto;
+	top: 15%;
+	padding-bottom: 15px;
+}
+
+.main{
+	width: 30%;
+	float: right;
+}
+
+.main-content{
+	width: 60%;
+	margin-right: 5%;
+}
+
+.book-single{
+	padding-bottom: 5px;
+}
+
+.book-title-single{
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: blue;
+	font-size: 2em;
+	margin-top: 0;
+}
+
+.book-subtitle-single{
+	margin-top: 0;
+	font-size: 1.25em;
+	color: #1B64DE;
+}
+
+.book-desc-single{
+	line-height: 1.5;
+}
+
+.book-isbn-single{
+	font-size: .95em;
+}
+
+.category{
+	font-size: 1.25em;
+	color: #0553C9;
+	font-weight: bold;
+}
+
+.details{
+	color: #1B64DE;
+}
+
+@media (max-width: 800px) {
+
+	.book-title-single{
+		margin-top: 20px;
+	}
+
+	.container-single{
+		margin-top: 10px;
+	}
+
+	.main-content{
+		width: 90%;
+	}
+
+	.main{
+		float: left;
+	}
 }
 
 @media (max-width: 550px) {
