@@ -2,8 +2,7 @@ $(function () {
 
 	//variable to track hash changes (temp solution)
 	currHash = "";
-
-
+	
 	//initially hide book container
 	$(".container-singe").hide();
 
